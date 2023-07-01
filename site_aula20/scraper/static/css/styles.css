@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Estilização geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.info-home {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização do formulário de pesquisa */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #4c7faf;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #455da0;
+}
+
+/* Estilização das tabelas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #585858;
+  color: #fff;
+}
+
+/* Estilização dos títulos das tabelas */
+h2, h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Estilização das linhas alternadas das tabelas */
+tbody tr:nth-child(even) {
+  background-color: #939496;
+}
+
+/* Estilização dos botões das tabelas */
+td button {
+  padding: 5px 10px;
+  background-color: #585858;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilização do rodapé */
+footer {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+
+.graph-image {
+  display: block;
+  margin: 20px auto;
+  width: 400px;
+  height: auto;
+}
+
